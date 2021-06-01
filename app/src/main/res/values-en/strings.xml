@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Tamesis</string>
+    <string name="opcion1">About us</string>
+    <string name="opcion2">English</string>
+    <string name="opcion3">Spanish</string>
+
+
+
+
+    <string name="Descripcion">My name is John Restrepo, I am a dynamic and creative person, accustomed to working under
+         Pressure. I have experience in customer service and very good
+         interpersonal relationships, which makes it easier for me to work in
+         team, which I also enjoy. I am currently a passionate and interested person
+         in the world of technology. In my little experience, I will demonstrate my capabilities, with this
+         type of jobs and thus, to be able to grow in the future both personally and professionally.
+    </string>
+
+</resources>

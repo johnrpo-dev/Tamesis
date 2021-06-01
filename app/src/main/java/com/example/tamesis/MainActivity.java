@@ -4,9 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +30,47 @@ public class MainActivity extends AppCompatActivity {
         crearlista();
         ListaAdaptador adaptador = new ListaAdaptador(listadeActividades);
         listadoGrafico.setAdapter(adaptador);
+    }
+
+    public void cambiarIdioma(String lenguaje) {
+        Locale idioma = new Locale(lenguaje);
+        Locale.setDefault(idioma);
+
+        Configuration configuracionTelefono = getResources().getConfiguration();
+        configuracionTelefono.locale = idioma;
+
+        getBaseContext().getResources().updateConfiguration(configuracionTelefono,getBaseContext().getResources().getDisplayMetrics());
+
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+
+        switch (id){
+            case (R.id.opcion1):
+                Intent intent1 = new Intent(MainActivity.this, Acercade.class);
+                startActivity(intent1);
+                break;
+
+            case (R.id.opcion2):
+                cambiarIdioma("en");
+                Intent intent2 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent2);
+                break;
+
+            case (R.id.opcion3):
+                cambiarIdioma("es");
+                Intent intent3 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent3);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private void crearlista (){

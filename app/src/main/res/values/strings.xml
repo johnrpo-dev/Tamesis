@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Tamesis</string>
-    <string name="txtsalida">lorem ipsu</string>
+    <string name="opcion1">Acerca de</string>
+    <string name="opcion2">Ingles</string>
+    <string name="opcion3">Español</string>
+
+
+
+
+    <string name="Descripcion">Mi nombre es John Restrepo, soy una persona dinámica y creativa, habituada al trabajo bajo
+        presión. Tengo experiencia en atención al usuario y muy buenas
+        relaciones interpersonales, por lo cual se me facilita el trabajo en
+        equipo, lo cual además disfruto. Actualmente soy una persona apasionada e interesada
+        en el mundo de la tecnologia. En mi poca experiencia, demostraré mis capacidades, con este
+        tipo de trabajos y así, poder crecer a futuro tanto a nivel personal como profesional.</string>
+
+
 </resources>
