@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37953565118",
+    "project_id": "tamesis-89b81",
+    "storage_bucket": "tamesis-89b81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37953565118:android:cea0227216e2b569c149ef",
+        "android_client_info": {
+          "package_name": "com.example.tamesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37953565118-soucvsal1bpkrcr5cd28djo5v2il3tvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDTOxqgTcpfKq28JObL7y40Y4qiVdpXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37953565118-soucvsal1bpkrcr5cd28djo5v2il3tvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
