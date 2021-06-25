@@ -4,12 +4,9 @@ import java.io.Serializable;
 
 public class Turismo implements Serializable {
 
-    String nombreTurismo;
-    int fotoTurismo;
-    String descripcion;
+    String nombreTurismo, fotoTurismo, descripcion;
 
-
-    public Turismo(String nombreTurismo, int fotoTurismo, String descripcion) {
+    public Turismo(String nombreTurismo, String fotoTurismo, String descripcion) {
         this.nombreTurismo = nombreTurismo;
         this.fotoTurismo = fotoTurismo;
         this.descripcion = descripcion;
@@ -23,22 +20,20 @@ public class Turismo implements Serializable {
         this.nombreTurismo = nombreTurismo;
     }
 
-    public int getFotoTurismo() {
+    public String getFotoTurismo() {
         return fotoTurismo;
     }
 
-    public void setFotoTurismo(int fotoTurismo) {
+    public void setFotoTurismo(String fotoTurismo) {
         this.fotoTurismo = fotoTurismo;
     }
 
-    public String getdescripcion() {
+    public String getDescripcion() {
         return descripcion;
     }
 
-    public void setdescripcion(String descripcion) {
+    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
-
-
 }
+
